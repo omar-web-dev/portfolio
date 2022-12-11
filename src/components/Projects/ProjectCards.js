@@ -32,6 +32,21 @@ function ProjectCards(props) {
             {"Demo"}
           </Button>
         )}
+
+        {!props.isBlog && props.demoLink && (
+          <Button
+            variant="primary"
+            href={props.demoLink}
+            target="_blank"
+            style={{ 
+              marginLeft: "10px",
+              marginTop: "10px"
+           }}
+          >
+            <CgWebsite /> &nbsp;
+            {"Details"}
+          </Button>
+        )}
       </Card.Body>
     </Card>
   );

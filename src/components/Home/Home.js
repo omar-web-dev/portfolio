@@ -1,10 +1,15 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button, Nav } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
+import About from "../About/About";
 import Particle from "../Particle";
+import Projects from "../Projects/Projects";
 import Home2 from "./Home2";
 import Type from "./Type";
-
+import Contact from "../Contact/Contact";
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
+// https://prnt.sc/cyQVqyS94HKp
 function Home() {
   return (
     <section>
@@ -25,8 +30,17 @@ function Home() {
                 <strong className="main-name"> Omar Faruk</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ paddingLeft: 50, textAlign: "left" }}>
                 <Type />
+              </div>
+              <div style={{ paddingLeft: 50, paddingTop: 15, textAlign: "left" }}>
+                
+                <Button
+                  variant="primary"
+                  style={{ marginLeft: "0" }}
+                >
+                  Resume <BsFillArrowRightCircleFill />
+                </Button>
               </div>
             </Col>
 
@@ -41,7 +55,10 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <Projects />
+      <About />
       <Home2 />
+      <Contact />
     </section>
   );
 }

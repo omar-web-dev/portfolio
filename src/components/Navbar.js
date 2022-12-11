@@ -98,8 +98,7 @@ function NavBar() {
                 as={Link}
                 to="/contact"
                 onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Contact
+              >Contact
               </Nav.Link>
             </Nav.Item>
 

@@ -45,7 +45,7 @@ function FormDisabledInputExample() {
                             </InputGroup>
 
                             <InputGroup>
-                                <InputGroup.Text>With textarea</InputGroup.Text>
+                                <InputGroup.Text>Your Massage</InputGroup.Text>
                                 <Form.Control as="textarea" name="message" aria-label="With textarea" />
                             </InputGroup>
                             {error && <p className='text-red'>{error}</p>}
