@@ -1,9 +1,16 @@
+
+<style> 
+.center{
+     width:500px;
+  }
+
+</style>
 <h2 align="center">
   Portfolio Website - v2.0<br/>
   <a href="https://wondrous-gnome-e44e1b.netlify.app/" target="_blank">omar_faruk.tech</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="https://i.ibb.co/1QFfdVR/Untitled-design.png" />
+  <img alt="Demo"  src="https://i.ibb.co/1QFfdVR/Untitled-design.png" />
 </div>
 
 <br/>
